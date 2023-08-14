@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: athletics;
+    src: url(../public/font/Athletics\ Regular.otf);
+}
+
+.athletics {
+    font-family: athletics;
+}
+
+@font-face {
+    font-family: athleticsBold;
+    src: url(../public/font/Athletics\ ExtraBold.otf);
+}
+
+.athleticsBold {
+    font-family: athleticsBold;
+}
+
+@font-face {
+    font-family: astromax;
+    src: url(../public/font/Astromax\ Regular.otf);
+}
+
+.astromax {
+    font-family: astromax;
+}
+
+@font-face {
+    font-family: bugis;
+    src: url(../public/font/Bugis.ttf);
+}
+
+.bugis {
+    font-family: bugis;
+}
+
+@font-face {
+    font-family: lebla;
+    src: url(../public/font/leblancfree-jeowy.otf);
+}
+
+.lebla {
+    font-family: lebla;
+}
+
+:root {
+    color: black;
+    /* font-family: athleticsBold; */
+}
